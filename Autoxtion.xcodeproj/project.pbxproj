@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC323C2B1D6345A6006470A6 /* AddPromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC323C2A1D6345A6006470A6 /* AddPromotionViewController.swift */; };
+		DC323C2D1D6355A2006470A6 /* PromotionVehicleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC323C2C1D6355A2006470A6 /* PromotionVehicleListViewController.swift */; };
+		DC323C2F1D6358B7006470A6 /* PromotionVehicleModelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC323C2E1D6358B7006470A6 /* PromotionVehicleModelListViewController.swift */; };
+		DC323C311D635DB6006470A6 /* PromotionVehicleYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC323C301D635DB6006470A6 /* PromotionVehicleYearViewController.swift */; };
+		DC3FED8E1D422645001891A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3FED8D1D422645001891A3 /* AppDelegate.swift */; };
+		DC3FED951D422645001891A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3FED931D422645001891A3 /* Main.storyboard */; };
+		DC3FED971D422645001891A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3FED961D422645001891A3 /* Assets.xcassets */; };
+		DC3FED9A1D422645001891A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3FED981D422645001891A3 /* LaunchScreen.storyboard */; };
+		DC3FEDA51D422645001891A3 /* AutoxtionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3FEDA41D422645001891A3 /* AutoxtionTests.swift */; };
+		DC3FEDB01D422645001891A3 /* AutoxtionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3FEDAF1D422645001891A3 /* AutoxtionUITests.swift */; };
+		DC441B901D48A76B008FDB09 /* LeadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC441B8F1D48A76B008FDB09 /* LeadTableViewCell.swift */; };
+		DC441B921D48C0FA008FDB09 /* CustomerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC441B911D48C0FA008FDB09 /* CustomerTableViewCell.swift */; };
+		DC441B941D48D9CF008FDB09 /* PromotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC441B931D48D9CF008FDB09 /* PromotionTableViewCell.swift */; };
+		DC441B961D48F404008FDB09 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC441B951D48F404008FDB09 /* RequestTableViewCell.swift */; };
+		DC4AEBDD1D45DE2A00B0A887 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4AEBDC1D45DE2A00B0A887 /* LoginViewController.swift */; };
+		DC5032261D5CCA8900922A86 /* VehicleBrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5032251D5CCA8900922A86 /* VehicleBrandsViewController.swift */; };
+		DC5032281D5CCA9B00922A86 /* VehicleModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5032271D5CCA9B00922A86 /* VehicleModelViewController.swift */; };
+		DC50322A1D5CCAB600922A86 /* VehicleBrandsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5032291D5CCAB600922A86 /* VehicleBrandsTableViewCell.swift */; };
+		DC50322C1D5CCAC200922A86 /* VehicleModelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50322B1D5CCAC200922A86 /* VehicleModelsTableViewCell.swift */; };
+		DC50322E1D5CCE1800922A86 /* VehicleYearTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50322D1D5CCE1800922A86 /* VehicleYearTableViewCell.swift */; };
+		DC5032301D5CCE2C00922A86 /* VehicleYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50322F1D5CCE2C00922A86 /* VehicleYearViewController.swift */; };
+		DC50F32E1D5E0A75005C907A /* ScheduleAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC50F32D1D5E0A75005C907A /* ScheduleAppointmentViewController.swift */; };
+		DC54050A1D537175005CBC44 /* NewLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5405091D537175005CBC44 /* NewLaunchViewController.swift */; };
+		DC55019C1D657A5700E2B6E8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC55019B1D657A5700E2B6E8 /* ForgotPasswordViewController.swift */; };
+		DC6142641D643BEB0074158B /* PromotionServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6142631D643BEB0074158B /* PromotionServicesViewController.swift */; };
+		DC6142661D643C310074158B /* PromotionServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6142651D643C310074158B /* PromotionServicesTableViewCell.swift */; };
+		DC6142681D646DF70074158B /* SubscriptionPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6142671D646DF70074158B /* SubscriptionPlanViewController.swift */; };
+		DC61426A1D648E700074158B /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6142691D648E700074158B /* TermsViewController.swift */; };
+		DC61426E1D649B9E0074158B /* NotificationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61426D1D649B9E0074158B /* NotificationsTableViewController.swift */; };
+		DC6142701D64A1BE0074158B /* EnrolmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC61426F1D64A1BE0074158B /* EnrolmentViewController.swift */; };
+		DC6AE4CB1D5B62DC00628C1F /* NewLeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6AE4CA1D5B62DC00628C1F /* NewLeadViewController.swift */; };
+		DC6DD0E71D58606200711509 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6DD0E61D58606200711509 /* SettingTableViewController.swift */; };
+		DC89A2841D59BD7800B3CAEE /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89A2831D59BD7800B3CAEE /* DashboardViewController.swift */; };
+		DC89A2861D59E4BD00B3CAEE /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89A2851D59E4BD00B3CAEE /* DashboardTableViewCell.swift */; };
+		DCA8CE141D5B789D008B4D82 /* GenerateCustomerCredentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8CE131D5B789D008B4D82 /* GenerateCustomerCredentialViewController.swift */; };
+		DCC974AD1D49DA31009CABAE /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC974AC1D49DA31009CABAE /* AppointmentTableViewCell.swift */; };
+		DCC974AF1D49E066009CABAE /* FeedbackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC974AE1D49E066009CABAE /* FeedbackTableViewCell.swift */; };
+		DCC974B21D49E468009CABAE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC974B01D49E468009CABAE /* CustomView.swift */; };
+		DCC974B31D49E468009CABAE /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC974B11D49E468009CABAE /* DismissSegue.swift */; };
+		DCC974B71D49E6E6009CABAE /* BusinessProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC974B61D49E6E6009CABAE /* BusinessProfileViewController.swift */; };
+		DCC974B91D49F193009CABAE /* ChangePasswordProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC974B81D49F193009CABAE /* ChangePasswordProfileViewController.swift */; };
+		DCD8B42C1D464D95003C8D8F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8B42B1D464D95003C8D8F /* RegisterViewController.swift */; };
+		DCE8EA7F1D5897B800EBFAA8 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8EA7E1D5897B800EBFAA8 /* EditProfileViewController.swift */; };
+		DCEEB1AB1D4794960073EE3B /* CRMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEEB1AA1D4794960073EE3B /* CRMViewController.swift */; };
+		DCEEB1AD1D4794A90073EE3B /* PromotionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEEB1AC1D4794A90073EE3B /* PromotionsViewController.swift */; };
+		DCEEB1AF1D4794CC0073EE3B /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEEB1AE1D4794CC0073EE3B /* RequestViewController.swift */; };
+		DCEEB1B11D4794DB0073EE3B /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEEB1B01D4794DB0073EE3B /* AppointmentViewController.swift */; };
+		DCEEB1B31D4794F40073EE3B /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEEB1B21D4794F40073EE3B /* FeedbackViewController.swift */; };
+		DCEEB1B51D47A4AE0073EE3B /* LeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEEB1B41D47A4AE0073EE3B /* LeadViewController.swift */; };
+		DCEEB1B71D47A4F20073EE3B /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEEB1B61D47A4F20073EE3B /* CustomerViewController.swift */; };
+		DCF47DB21D55D46C00CD11D3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCF47DB11D55D46C00CD11D3 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC3FEDA11D422645001891A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3FED821D422645001891A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3FED891D422645001891A3;
+			remoteInfo = Autoxtion;
+		};
+		DC3FEDAC1D422645001891A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3FED821D422645001891A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC3FED891D422645001891A3;
+			remoteInfo = Autoxtion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC323C2A1D6345A6006470A6 /* AddPromotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPromotionViewController.swift; sourceTree = "<group>"; };
+		DC323C2C1D6355A2006470A6 /* PromotionVehicleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionVehicleListViewController.swift; sourceTree = "<group>"; };
+		DC323C2E1D6358B7006470A6 /* PromotionVehicleModelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionVehicleModelListViewController.swift; sourceTree = "<group>"; };
+		DC323C301D635DB6006470A6 /* PromotionVehicleYearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionVehicleYearViewController.swift; sourceTree = "<group>"; };
+		DC3FED8A1D422645001891A3 /* Autoxtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autoxtion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3FED8D1D422645001891A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC3FED941D422645001891A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC3FED961D422645001891A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3FED991D422645001891A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC3FEDA01D422645001891A3 /* AutoxtionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoxtionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3FEDA41D422645001891A3 /* AutoxtionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoxtionTests.swift; sourceTree = "<group>"; };
+		DC3FEDA61D422645001891A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3FEDAB1D422645001891A3 /* AutoxtionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoxtionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3FEDAF1D422645001891A3 /* AutoxtionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoxtionUITests.swift; sourceTree = "<group>"; };
+		DC3FEDB11D422645001891A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC441B8F1D48A76B008FDB09 /* LeadTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadTableViewCell.swift; sourceTree = "<group>"; };
+		DC441B911D48C0FA008FDB09 /* CustomerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerTableViewCell.swift; sourceTree = "<group>"; };
+		DC441B931D48D9CF008FDB09 /* PromotionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionTableViewCell.swift; sourceTree = "<group>"; };
+		DC441B951D48F404008FDB09 /* RequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		DC4AEBDC1D45DE2A00B0A887 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC5032251D5CCA8900922A86 /* VehicleBrandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleBrandsViewController.swift; sourceTree = "<group>"; };
+		DC5032271D5CCA9B00922A86 /* VehicleModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleModelViewController.swift; sourceTree = "<group>"; };
+		DC5032291D5CCAB600922A86 /* VehicleBrandsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleBrandsTableViewCell.swift; sourceTree = "<group>"; };
+		DC50322B1D5CCAC200922A86 /* VehicleModelsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleModelsTableViewCell.swift; sourceTree = "<group>"; };
+		DC50322D1D5CCE1800922A86 /* VehicleYearTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleYearTableViewCell.swift; sourceTree = "<group>"; };
+		DC50322F1D5CCE2C00922A86 /* VehicleYearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleYearViewController.swift; sourceTree = "<group>"; };
+		DC50F32D1D5E0A75005C907A /* ScheduleAppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleAppointmentViewController.swift; sourceTree = "<group>"; };
+		DC5405091D537175005CBC44 /* NewLaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLaunchViewController.swift; sourceTree = "<group>"; };
+		DC55019B1D657A5700E2B6E8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		DC6142631D643BEB0074158B /* PromotionServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionServicesViewController.swift; sourceTree = "<group>"; };
+		DC6142651D643C310074158B /* PromotionServicesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionServicesTableViewCell.swift; sourceTree = "<group>"; };
+		DC6142671D646DF70074158B /* SubscriptionPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionPlanViewController.swift; sourceTree = "<group>"; };
+		DC6142691D648E700074158B /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		DC61426D1D649B9E0074158B /* NotificationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsTableViewController.swift; sourceTree = "<group>"; };
+		DC61426F1D64A1BE0074158B /* EnrolmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnrolmentViewController.swift; sourceTree = "<group>"; };
+		DC6AE4CA1D5B62DC00628C1F /* NewLeadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLeadViewController.swift; sourceTree = "<group>"; };
+		DC6DD0E61D58606200711509 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		DC89A2831D59BD7800B3CAEE /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		DC89A2851D59E4BD00B3CAEE /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		DCA8CE131D5B789D008B4D82 /* GenerateCustomerCredentialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCustomerCredentialViewController.swift; sourceTree = "<group>"; };
+		DCC974AC1D49DA31009CABAE /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		DCC974AE1D49E066009CABAE /* FeedbackTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackTableViewCell.swift; sourceTree = "<group>"; };
+		DCC974B01D49E468009CABAE /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		DCC974B11D49E468009CABAE /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		DCC974B61D49E6E6009CABAE /* BusinessProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessProfileViewController.swift; sourceTree = "<group>"; };
+		DCC974B81D49F193009CABAE /* ChangePasswordProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordProfileViewController.swift; sourceTree = "<group>"; };
+		DCD8B42B1D464D95003C8D8F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DCE8EA7E1D5897B800EBFAA8 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		DCEEB1AA1D4794960073EE3B /* CRMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRMViewController.swift; sourceTree = "<group>"; };
+		DCEEB1AC1D4794A90073EE3B /* PromotionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionsViewController.swift; sourceTree = "<group>"; };
+		DCEEB1AE1D4794CC0073EE3B /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		DCEEB1B01D4794DB0073EE3B /* AppointmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		DCEEB1B21D4794F40073EE3B /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		DCEEB1B41D47A4AE0073EE3B /* LeadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadViewController.swift; sourceTree = "<group>"; };
+		DCEEB1B61D47A4F20073EE3B /* CustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		DCF47DB11D55D46C00CD11D3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3FED871D422645001891A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3FED9D1D422645001891A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3FEDA81D422645001891A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3FED811D422645001891A3 = {
+			isa = PBXGroup;
+			children = (
+				DC3FED8C1D422645001891A3 /* Autoxtion */,
+				DC3FEDA31D422645001891A3 /* AutoxtionTests */,
+				DC3FEDAE1D422645001891A3 /* AutoxtionUITests */,
+				DC3FED8B1D422645001891A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3FED8B1D422645001891A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3FED8A1D422645001891A3 /* Autoxtion.app */,
+				DC3FEDA01D422645001891A3 /* AutoxtionTests.xctest */,
+				DC3FEDAB1D422645001891A3 /* AutoxtionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3FED8C1D422645001891A3 /* Autoxtion */ = {
+			isa = PBXGroup;
+			children = (
+				DC3FED8D1D422645001891A3 /* AppDelegate.swift */,
+				DC3FED931D422645001891A3 /* Main.storyboard */,
+				DC3FED961D422645001891A3 /* Assets.xcassets */,
+				DCF47DB11D55D46C00CD11D3 /* Info.plist */,
+				DC3FED981D422645001891A3 /* LaunchScreen.storyboard */,
+				DC5405091D537175005CBC44 /* NewLaunchViewController.swift */,
+				DC4AEBDC1D45DE2A00B0A887 /* LoginViewController.swift */,
+				DCD8B42B1D464D95003C8D8F /* RegisterViewController.swift */,
+				DCC974B01D49E468009CABAE /* CustomView.swift */,
+				DCC974B11D49E468009CABAE /* DismissSegue.swift */,
+				DC89A2831D59BD7800B3CAEE /* DashboardViewController.swift */,
+				DC89A2851D59E4BD00B3CAEE /* DashboardTableViewCell.swift */,
+				DCEEB1AA1D4794960073EE3B /* CRMViewController.swift */,
+				DCEEB1B41D47A4AE0073EE3B /* LeadViewController.swift */,
+				DC441B8F1D48A76B008FDB09 /* LeadTableViewCell.swift */,
+				DC6AE4CA1D5B62DC00628C1F /* NewLeadViewController.swift */,
+				DC5032251D5CCA8900922A86 /* VehicleBrandsViewController.swift */,
+				DC5032291D5CCAB600922A86 /* VehicleBrandsTableViewCell.swift */,
+				DC5032271D5CCA9B00922A86 /* VehicleModelViewController.swift */,
+				DC50322B1D5CCAC200922A86 /* VehicleModelsTableViewCell.swift */,
+				DC50322F1D5CCE2C00922A86 /* VehicleYearViewController.swift */,
+				DC50322D1D5CCE1800922A86 /* VehicleYearTableViewCell.swift */,
+				DCEEB1B61D47A4F20073EE3B /* CustomerViewController.swift */,
+				DC441B911D48C0FA008FDB09 /* CustomerTableViewCell.swift */,
+				DCA8CE131D5B789D008B4D82 /* GenerateCustomerCredentialViewController.swift */,
+				DCEEB1AE1D4794CC0073EE3B /* RequestViewController.swift */,
+				DC441B951D48F404008FDB09 /* RequestTableViewCell.swift */,
+				DC50F32D1D5E0A75005C907A /* ScheduleAppointmentViewController.swift */,
+				DCEEB1B01D4794DB0073EE3B /* AppointmentViewController.swift */,
+				DCC974AC1D49DA31009CABAE /* AppointmentTableViewCell.swift */,
+				DCEEB1AC1D4794A90073EE3B /* PromotionsViewController.swift */,
+				DC441B931D48D9CF008FDB09 /* PromotionTableViewCell.swift */,
+				DC323C2C1D6355A2006470A6 /* PromotionVehicleListViewController.swift */,
+				DC323C2E1D6358B7006470A6 /* PromotionVehicleModelListViewController.swift */,
+				DC323C301D635DB6006470A6 /* PromotionVehicleYearViewController.swift */,
+				DC6142631D643BEB0074158B /* PromotionServicesViewController.swift */,
+				DC6142651D643C310074158B /* PromotionServicesTableViewCell.swift */,
+				DC323C2A1D6345A6006470A6 /* AddPromotionViewController.swift */,
+				DCEEB1B21D4794F40073EE3B /* FeedbackViewController.swift */,
+				DCC974AE1D49E066009CABAE /* FeedbackTableViewCell.swift */,
+				DC6DD0E61D58606200711509 /* SettingTableViewController.swift */,
+				DCC974B61D49E6E6009CABAE /* BusinessProfileViewController.swift */,
+				DCC974B81D49F193009CABAE /* ChangePasswordProfileViewController.swift */,
+				DCE8EA7E1D5897B800EBFAA8 /* EditProfileViewController.swift */,
+				DC6142671D646DF70074158B /* SubscriptionPlanViewController.swift */,
+				DC6142691D648E700074158B /* TermsViewController.swift */,
+				DC61426D1D649B9E0074158B /* NotificationsTableViewController.swift */,
+				DC61426F1D64A1BE0074158B /* EnrolmentViewController.swift */,
+				DC55019B1D657A5700E2B6E8 /* ForgotPasswordViewController.swift */,
+			);
+			path = Autoxtion;
+			sourceTree = "<group>";
+		};
+		DC3FEDA31D422645001891A3 /* AutoxtionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3FEDA41D422645001891A3 /* AutoxtionTests.swift */,
+				DC3FEDA61D422645001891A3 /* Info.plist */,
+			);
+			path = AutoxtionTests;
+			sourceTree = "<group>";
+		};
+		DC3FEDAE1D422645001891A3 /* AutoxtionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3FEDAF1D422645001891A3 /* AutoxtionUITests.swift */,
+				DC3FEDB11D422645001891A3 /* Info.plist */,
+			);
+			path = AutoxtionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3FED891D422645001891A3 /* Autoxtion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3FEDB41D422645001891A3 /* Build configuration list for PBXNativeTarget "Autoxtion" */;
+			buildPhases = (
+				DC3FED861D422645001891A3 /* Sources */,
+				DC3FED871D422645001891A3 /* Frameworks */,
+				DC3FED881D422645001891A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autoxtion;
+			productName = Autoxtion;
+			productReference = DC3FED8A1D422645001891A3 /* Autoxtion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC3FED9F1D422645001891A3 /* AutoxtionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3FEDB71D422645001891A3 /* Build configuration list for PBXNativeTarget "AutoxtionTests" */;
+			buildPhases = (
+				DC3FED9C1D422645001891A3 /* Sources */,
+				DC3FED9D1D422645001891A3 /* Frameworks */,
+				DC3FED9E1D422645001891A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3FEDA21D422645001891A3 /* PBXTargetDependency */,
+			);
+			name = AutoxtionTests;
+			productName = AutoxtionTests;
+			productReference = DC3FEDA01D422645001891A3 /* AutoxtionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC3FEDAA1D422645001891A3 /* AutoxtionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3FEDBA1D422645001891A3 /* Build configuration list for PBXNativeTarget "AutoxtionUITests" */;
+			buildPhases = (
+				DC3FEDA71D422645001891A3 /* Sources */,
+				DC3FEDA81D422645001891A3 /* Frameworks */,
+				DC3FEDA91D422645001891A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3FEDAD1D422645001891A3 /* PBXTargetDependency */,
+			);
+			name = AutoxtionUITests;
+			productName = AutoxtionUITests;
+			productReference = DC3FEDAB1D422645001891A3 /* AutoxtionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3FED821D422645001891A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "citadel soluions";
+				TargetAttributes = {
+					DC3FED891D422645001891A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X464Y7PPTE;
+					};
+					DC3FED9F1D422645001891A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DC3FED891D422645001891A3;
+					};
+					DC3FEDAA1D422645001891A3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DC3FED891D422645001891A3;
+					};
+				};
+			};
+			buildConfigurationList = DC3FED851D422645001891A3 /* Build configuration list for PBXProject "Autoxtion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3FED811D422645001891A3;
+			productRefGroup = DC3FED8B1D422645001891A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3FED891D422645001891A3 /* Autoxtion */,
+				DC3FED9F1D422645001891A3 /* AutoxtionTests */,
+				DC3FEDAA1D422645001891A3 /* AutoxtionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3FED881D422645001891A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF47DB21D55D46C00CD11D3 /* Info.plist in Resources */,
+				DC3FED9A1D422645001891A3 /* LaunchScreen.storyboard in Resources */,
+				DC3FED971D422645001891A3 /* Assets.xcassets in Resources */,
+				DC3FED951D422645001891A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3FED9E1D422645001891A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3FEDA91D422645001891A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3FED861D422645001891A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEEB1B71D47A4F20073EE3B /* CustomerViewController.swift in Sources */,
+				DC6AE4CB1D5B62DC00628C1F /* NewLeadViewController.swift in Sources */,
+				DC89A2861D59E4BD00B3CAEE /* DashboardTableViewCell.swift in Sources */,
+				DCEEB1B51D47A4AE0073EE3B /* LeadViewController.swift in Sources */,
+				DCC974B71D49E6E6009CABAE /* BusinessProfileViewController.swift in Sources */,
+				DC323C2B1D6345A6006470A6 /* AddPromotionViewController.swift in Sources */,
+				DCEEB1B11D4794DB0073EE3B /* AppointmentViewController.swift in Sources */,
+				DCC974B21D49E468009CABAE /* CustomView.swift in Sources */,
+				DC323C2F1D6358B7006470A6 /* PromotionVehicleModelListViewController.swift in Sources */,
+				DC441B901D48A76B008FDB09 /* LeadTableViewCell.swift in Sources */,
+				DCE8EA7F1D5897B800EBFAA8 /* EditProfileViewController.swift in Sources */,
+				DC54050A1D537175005CBC44 /* NewLaunchViewController.swift in Sources */,
+				DC50F32E1D5E0A75005C907A /* ScheduleAppointmentViewController.swift in Sources */,
+				DCEEB1AD1D4794A90073EE3B /* PromotionsViewController.swift in Sources */,
+				DC441B941D48D9CF008FDB09 /* PromotionTableViewCell.swift in Sources */,
+				DCC974B91D49F193009CABAE /* ChangePasswordProfileViewController.swift in Sources */,
+				DC6142681D646DF70074158B /* SubscriptionPlanViewController.swift in Sources */,
+				DCEEB1AB1D4794960073EE3B /* CRMViewController.swift in Sources */,
+				DCEEB1AF1D4794CC0073EE3B /* RequestViewController.swift in Sources */,
+				DC4AEBDD1D45DE2A00B0A887 /* LoginViewController.swift in Sources */,
+				DC50322C1D5CCAC200922A86 /* VehicleModelsTableViewCell.swift in Sources */,
+				DCA8CE141D5B789D008B4D82 /* GenerateCustomerCredentialViewController.swift in Sources */,
+				DC50322A1D5CCAB600922A86 /* VehicleBrandsTableViewCell.swift in Sources */,
+				DC61426E1D649B9E0074158B /* NotificationsTableViewController.swift in Sources */,
+				DC5032301D5CCE2C00922A86 /* VehicleYearViewController.swift in Sources */,
+				DC441B921D48C0FA008FDB09 /* CustomerTableViewCell.swift in Sources */,
+				DCC974AF1D49E066009CABAE /* FeedbackTableViewCell.swift in Sources */,
+				DC323C311D635DB6006470A6 /* PromotionVehicleYearViewController.swift in Sources */,
+				DCC974AD1D49DA31009CABAE /* AppointmentTableViewCell.swift in Sources */,
+				DC5032261D5CCA8900922A86 /* VehicleBrandsViewController.swift in Sources */,
+				DC441B961D48F404008FDB09 /* RequestTableViewCell.swift in Sources */,
+				DCC974B31D49E468009CABAE /* DismissSegue.swift in Sources */,
+				DC5032281D5CCA9B00922A86 /* VehicleModelViewController.swift in Sources */,
+				DC6DD0E71D58606200711509 /* SettingTableViewController.swift in Sources */,
+				DC89A2841D59BD7800B3CAEE /* DashboardViewController.swift in Sources */,
+				DC61426A1D648E700074158B /* TermsViewController.swift in Sources */,
+				DC6142641D643BEB0074158B /* PromotionServicesViewController.swift in Sources */,
+				DCD8B42C1D464D95003C8D8F /* RegisterViewController.swift in Sources */,
+				DC323C2D1D6355A2006470A6 /* PromotionVehicleListViewController.swift in Sources */,
+				DCEEB1B31D4794F40073EE3B /* FeedbackViewController.swift in Sources */,
+				DC3FED8E1D422645001891A3 /* AppDelegate.swift in Sources */,
+				DC55019C1D657A5700E2B6E8 /* ForgotPasswordViewController.swift in Sources */,
+				DC6142661D643C310074158B /* PromotionServicesTableViewCell.swift in Sources */,
+				DC50322E1D5CCE1800922A86 /* VehicleYearTableViewCell.swift in Sources */,
+				DC6142701D64A1BE0074158B /* EnrolmentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3FED9C1D422645001891A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3FEDA51D422645001891A3 /* AutoxtionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3FEDA71D422645001891A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3FEDB01D422645001891A3 /* AutoxtionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC3FEDA21D422645001891A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3FED891D422645001891A3 /* Autoxtion */;
+			targetProxy = DC3FEDA11D422645001891A3 /* PBXContainerItemProxy */;
+		};
+		DC3FEDAD1D422645001891A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC3FED891D422645001891A3 /* Autoxtion */;
+			targetProxy = DC3FEDAC1D422645001891A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC3FED931D422645001891A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3FED941D422645001891A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC3FED981D422645001891A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3FED991D422645001891A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC3FEDB21D422645001891A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC3FEDB31D422645001891A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3FEDB51D422645001891A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Autoxtion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citadel.Autoxtion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC3FEDB61D422645001891A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Autoxtion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citadel.Autoxtion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC3FEDB81D422645001891A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoxtionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citadel.AutoxtionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autoxtion.app/Autoxtion";
+			};
+			name = Debug;
+		};
+		DC3FEDB91D422645001891A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoxtionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citadel.AutoxtionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autoxtion.app/Autoxtion";
+			};
+			name = Release;
+		};
+		DC3FEDBB1D422645001891A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoxtionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citadel.AutoxtionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Autoxtion;
+			};
+			name = Debug;
+		};
+		DC3FEDBC1D422645001891A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoxtionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.citadel.AutoxtionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Autoxtion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3FED851D422645001891A3 /* Build configuration list for PBXProject "Autoxtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3FEDB21D422645001891A3 /* Debug */,
+				DC3FEDB31D422645001891A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3FEDB41D422645001891A3 /* Build configuration list for PBXNativeTarget "Autoxtion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3FEDB51D422645001891A3 /* Debug */,
+				DC3FEDB61D422645001891A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3FEDB71D422645001891A3 /* Build configuration list for PBXNativeTarget "AutoxtionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3FEDB81D422645001891A3 /* Debug */,
+				DC3FEDB91D422645001891A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3FEDBA1D422645001891A3 /* Build configuration list for PBXNativeTarget "AutoxtionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3FEDBB1D422645001891A3 /* Debug */,
+				DC3FEDBC1D422645001891A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3FED821D422645001891A3 /* Project object */;
+}
